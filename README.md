@@ -35,7 +35,6 @@ Inclui / Includes:
 
 ## Estrutura do Repositório | Repository Structure
 
-```bash
 ia-na-pratica/
 ├── python-chatbot/
 │   ├── app_gradio.py
