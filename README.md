@@ -95,9 +95,9 @@ OPENAI_API_KEY=sua_chave_aqui
 
 ### Executar | Run:
 
-cd python-chatbot
-pip install -r requirements.txt
-python app_gradio.py
+- cd python-chatbot
+- pip install -r requirements.txt
+- python app_gradio.py
 
 
 ---
@@ -111,9 +111,9 @@ POST /mensagem
 
 ### Executar | Run:
 
-cd node-backend
-npm install
-npm start
+- cd node-backend
+- npm install
+- npm start
 
 
 ---
@@ -127,9 +127,9 @@ Inclui / Includes:
 
 ### Executar | Run:
 
-cd recommender
-pip install -r requirements.txt
-python recommender.py
+- cd recommender
+- pip install -r requirements.txt
+- python recommender.py
 
 
 ---
@@ -141,9 +141,9 @@ Fast prototyping with a modern UI.
 
 ### Executar | Run:
 
-cd streamlit-app
-pip install -r requirements.txt
-streamlit run app_streamlit.py
+- cd streamlit-app
+- pip install -r requirements.txt
+- streamlit run app_streamlit.py
 
 
 ---
