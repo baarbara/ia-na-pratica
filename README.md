@@ -37,22 +37,22 @@ Inclui / Includes:
 
 ia-na-pratica/
 ├── python-chatbot/
-│   ├── app_gradio.py
-│   ├── requirements.txt
+│ ├── app_gradio.py
+│ ├── requirements.txt
 │
 ├── node-backend/
-│   ├── server.js
-│   ├── package.json
-│   ├── .gitignore
+│ ├── server.js
+│ ├── package.json
+│ ├── .gitignore
 │
 ├── recommender/
-│   ├── recommender.py
-│   ├── dataset_example.csv
-│   ├── requirements.txt
+│ ├── recommender.py
+│ ├── dataset_example.csv
+│ ├── requirements.txt
 │
 ├── streamlit-app/
-│   ├── app_streamlit.py
-│   ├── requirements.txt
+│ ├── app_streamlit.py
+│ ├── requirements.txt
 │
 ├── .env.example
 ├── README.md
@@ -195,8 +195,8 @@ MIT License — see `LICENSE`.
 ---
 
 # Contato | Contact
+Autora / Author: Barbara P. Tavora 
 
-Autora / Author: Barbara P. Tavora
 📧 **baarbara+livroia@gmail.com**  
 🔗 **https://www.linkedin.com/in/barbaratavora**
 
