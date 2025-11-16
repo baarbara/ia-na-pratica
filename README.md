@@ -1,6 +1,10 @@
 # IA na Prática — Templates de Código  
 ### IA in Practice — Code Templates
 
+[![License](https://img.shields.io/github/license/baarbara/ia-na-pratica)](LICENSE)
+![Repo Size](https://img.shields.io/github/repo-size/baarbara/ia-na-pratica)
+![Stars](https://img.shields.io/github/stars/baarbara/ia-na-pratica?style=social)
+
 > **PT-BR:** Repositório oficial de apoio ao livro *"IA na Prática — Da Teoria ao Site Inteligente"* (2025).  
 > **EN:** Official support repository for the book *"AI in Practice — From Theory to Intelligent Websites"* (2025).
 
@@ -9,10 +13,10 @@ This repository provides complete, organized, ready-to-use examples.
 
 Inclui / Includes:
 - Chatbot em Python com Gradio / Python chatbot with Gradio  
-- Backend Node.js consumindo OpenAI / Node.js backend using OpenAI  
+- Backend Node.js com OpenAI / Node.js backend using OpenAI  
 - Sistema de recomendação / Recommendation system  
-- Aplicativo Streamlit / Streamlit app  
-- Arquivos `.env` e boas práticas / `.env` files and best practices  
+- Aplicativo em Streamlit / Streamlit application  
+- Arquivos `.env` e boas práticas / `.env` templates & best practices  
 
 ---
 
@@ -31,24 +35,25 @@ Inclui / Includes:
 
 ## Estrutura do Repositório | Repository Structure
 
+```bash
 ia-na-pratica/
 ├── python-chatbot/
-│ ├── app_gradio.py
-│ ├── requirements.txt
+│   ├── app_gradio.py
+│   ├── requirements.txt
 │
 ├── node-backend/
-│ ├── server.js
-│ ├── package.json
-│ ├── .gitignore
+│   ├── server.js
+│   ├── package.json
+│   ├── .gitignore
 │
 ├── recommender/
-│ ├── recommender.py
-│ ├── dataset_example.csv
-│ ├── requirements.txt
+│   ├── recommender.py
+│   ├── dataset_example.csv
+│   ├── requirements.txt
 │
 ├── streamlit-app/
-│ ├── app_streamlit.py
-│ ├── requirements.txt
+│   ├── app_streamlit.py
+│   ├── requirements.txt
 │
 ├── .env.example
 ├── README.md
@@ -59,14 +64,14 @@ ia-na-pratica/
 
 ## Configuração da API | API Key Setup
 
-**PT-BR:** Antes de rodar os exemplos, copie o arquivo:  
-**EN:** Before running the examples, copy the file:
+PT-BR / EN
+
+Antes de rodar qualquer exemplo: / Before running any example:
 
 cp .env.example .env
 
 
-Insira sua chave:  
-Insert your key:
+Depois, defina sua chave: / Set your Key:
 
 OPENAI_API_KEY=sua_chave_aqui
 
@@ -85,7 +90,7 @@ OPENAI_API_KEY=sua_chave_aqui
 **PT-BR:** Um chatbot funcional usando o modelo **gpt-5.1-mini**.  
 **EN:** A functional chatbot powered by **gpt-5.1-mini**.
 
-### Como executar | How to run:
+### Executar | Run:
 
 cd python-chatbot
 pip install -r requirements.txt
@@ -96,8 +101,10 @@ python app_gradio.py
 
 ## 2. Backend Node.js (Express) | Node.js Backend (Express)
 
-**PT-BR:** Rota `/mensagem` que retorna resposta da IA.  
-**EN:** `/mensagem` endpoint that returns an AI-generated response.
+Endpoint:
+
+POST /mensagem
+
 
 ### Executar | Run:
 
@@ -140,11 +147,11 @@ streamlit run app_streamlit.py
 
 # Boas práticas incluídas | Included Best Practices
 
-- Uso de variáveis de ambiente / Environment variable isolation  
-- Tratamento de erros / Error handling  
-- Segurança básica com `x-api-key` / Basic security via `x-api-key`  
-- `.gitignore` configurado / Proper `.gitignore`  
-- Rate-limiting e Helmet (versão avançada do backend)  
+- Uso de .env para segurança / Environment variable isolation
+- Tratamento de erros / Error handling
+- x-api-key no backend / Optional API key header
+- .gitignore adequado / Proper .gitignore
+- Rate-limiting & Helmet (versão avançada) / Advanced security options  
 
 ---
 
@@ -190,6 +197,7 @@ MIT License — see `LICENSE`.
 
 # Contato | Contact
 
+Autora / Author: Barbara P. Tavora
 📧 **baarbara+livroia@gmail.com**  
 🔗 **https://www.linkedin.com/in/barbaratavora**
 
