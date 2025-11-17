@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/baarbara/ia-na-pratica/images/capa-release.png" width="85%" />
+</p>
 # IA na Prática — Templates de Código  
 ### IA in Practice — Code Templates
 
