@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/baarbara/ia-na-pratica/assets/capa-release.png" width="85%" />
+  <img src="https://raw.githubusercontent.com/baarbara/ia-na-pratica/main/assets/capa-release.png" alt="Capa — IA na Prática" width="900" />
 </p>
 # IA na Prática — Templates de Código  
 ### IA in Practice — Code Templates
